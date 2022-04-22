@@ -24,11 +24,17 @@
 
     <main id="app">
         <div class="container-dischi">
-            
+            <div class="disco" v-for="element in dischi">
+                <img :src="element.poster" :alt="element.title">
+                <h2>{{element.title}}</h2>
+                <h4>{{element.autore}}</h4>
+                <h5>{{element.anno}}</h5>
+            </div>
         </div>
     </main>
 
-    <script src="main.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
