@@ -22,20 +22,13 @@
         </div>
     </header>
 
-    <main>
-        <div>
-            <?php 
-                foreach ($dischi as $element) {
-                    echo $element['poster'] . '<br>' .
-                    $element['title'] . '<br>' .
-                    $element['autore'] . '<br>' .
-                    $element['genere'] . '<br>' .
-                    $element['anno'];
-                }
-            ?>
+    <main id="app">
+        <div class="container-dischi">
+            
         </div>
     </main>
 
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>
