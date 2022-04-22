@@ -36,8 +36,10 @@ main {
 .disco {
     width: calc((100% - 5rem) / 5);
     margin-right: 1rem;
+    margin-bottom: 1.5rem;
     padding: 1rem;
     text-align: center;
+    background-color: #6892bd25;
 }
 
 main img {
